@@ -3,6 +3,8 @@ $( function() {
   earlyAccess = $.cookie('earlyAccess');
   flash = $('.js-flash');
   flashText = $('.js-flash-text');
+  learnMoreButton = $('.js-learn-more-button');
+  learnMoreSection = $('.js-learn-more-section');
   signUpButton = $('.js-sign-up-button');
   signUpSection = $('.js-sign-up-section');
   thankYouSection = $('.js-thank-you-section');
@@ -12,6 +14,12 @@ $( function() {
       scrollTop: signUpSection.offset().top
     }, 1200);
   });
+
+  learnMoreButton.click( function() {
+    $('html, body').animate({
+      scrollTop: learnMoreSection.offset().top
+    }), 600;
+  })
 
   if( earlyAccess == 'true' ) {
     signUpSection.hide();

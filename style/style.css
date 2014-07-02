@@ -401,7 +401,9 @@ header a {
     background: #296f3e; }
 
 .hero {
-  background: url(../images/hero.jpg) center center;
+  background-color: #edf0ec;
+  background-image: -webkit-radial-gradient(white, #edf0ec);
+  background-image: radial-gradient(  white, #edf0ec);
   padding: 120px 0; }
   @media screen and (max-width: 700px) {
     .hero {
@@ -433,6 +435,13 @@ header a {
 
 .opacity-1 {
   opacity: 1; }
+
+.or {
+  padding: 0 20px; }
+  @media screen and (max-width: 500px) {
+    .or {
+      display: block;
+      padding: 20px 0; } }
 
 .subheader {
   font-size: 28px;

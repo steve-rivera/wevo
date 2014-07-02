@@ -346,7 +346,7 @@ header a {
 }
 
 .hero {
-  background: url(../images/hero.jpg) center center;
+  @include radial-gradient(lighten($khaki, 50%), $khaki, $fallback: $khaki);
   padding: 120px 0;
 
   @include media($medium) {
@@ -367,6 +367,15 @@ header a {
 
 .opacity-0 { opacity: 0; }
 .opacity-1 { opacity: 1; }
+
+.or {
+  padding: 0 20px;
+
+  @include media($mobile) {
+    display: block;
+    padding: 20px 0;
+  }
+}
 
 .subheader {
   font-size: 28px;
