@@ -1,0 +1,183 @@
+!!!5
+
+%html
+
+  %head
+    %title WEVO | Better Products. Faster.
+    %meta{ content: 'width=device-width, initial-scale=1', name: 'viewport' }
+    %link{ rel: 'stylesheet', type: 'text/css', href: 'style/style.css' }
+    %link{ rel: 'stylesheet', type: 'text/css', href: 'http://fonts.googleapis.com/css?family=Bitter:400,700,400italic|Raleway:200,400,300,500,600,800,700' }
+    %link{ rel: 'stylesheet', type: 'text/css', href: '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' }
+    %script{ src: '//cdn.optimizely.com/js/1359360430.js' }
+    %script{ src: '//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js' }
+    %script{ src: '//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js' }
+    %script{ src: 'scripts/jquery.cookie.js' }
+    %script{ src: 'scripts/scripts.js' }
+
+
+  %body
+
+    .flash.js-flash.bg-purple.color-white.l-centered.l-hidden
+      %strong.js-flash-text.opacity-0
+        Your inquiry submitted successfully! Thanks for your interest in trying out WEVO. We'll
+        be reaching out to you shortly, so stay tuned!
+
+    %header
+      .wrap
+        .logo-wrapper
+          .logo
+        %a.hide{ href: 'http://www.highstartgroup.com/about-us/', target: '_blank' } About HSG
+
+    %section.hero.bg-khaki
+      .wrap
+        .wrap-medium.bg-transparent.l-centered
+          %h1.mbs Make better products, faster.
+          %h2.subheader.mbs
+            WEVO gives you the market research and quanititative advice you need to confidently develop any product.
+            All within a week.
+          %button.button.button--purple.js-sign-up-button Request Early Access
+          %span.or or
+          %button.button.button--purple.js-learn-more-button Learn More
+
+
+    %section.bg-navy.color-white.js-sign-up-section
+      .wrap
+        %form{ action: 'send.php', method: 'post' }
+          %input.input-email{ type: 'text', name: 'email', placeholder: 'Email*' }
+          %input.input-submit{ type: 'submit', value: 'Request Early Access', class: 'button' }
+
+    %section.bg-navy.color-white.l-hidden.js-thank-you-section
+      .wrap
+        .wrap-medium.l-centered
+          %h2.mbs.color-white Thanks for your interest!
+          %p We'll be reaching out to you shortly, so be on the lookout.
+
+    %section.js-learn-more-section
+      .wrap
+        %h2.mbl How WEVO Works
+
+      .wrap
+        %article
+          %i.fa.fa-lightbulb-o.fa-2x
+          %h3.header-divider 1. You describe your product
+          %p
+            Answer a few simple questions to describe the product you're building and who
+            it's for.
+
+        %article
+          %i.fa.fa-group.fa-2x
+          %h3.header-divider 2. We conduct the research
+          %p
+            We take your ideas to our community of over 4,000,000 to get statistically reliable
+            input.
+
+        %article
+          %i.fa.fa-check-square-o.fa-2x
+          %h3.header-divider 3. You get results, fast
+          %p
+            Within a week we deliver actionable insights to help you create better
+            products.
+
+    %section.bg-green
+      .wrap.mts
+        %h2.color-white.mbs
+          Proven Market Research Science
+        .wrap-medium
+          %p.color-white.l-centered.mbm
+            WEVO uses state of the art market research science to help you decide which features
+            appeal to your target customers.
+
+      .wrap.mbs
+        %article.color-white
+          %i.fa.fa-bullseye.fa-2x
+          %h3.header-divider.header-white Extensive market reach
+          %p
+            WEVO gets input from
+            %em your
+            target market, from small business owners or busy parents. Our 4,000,000
+            respondents cover everyone.
+
+        %article.color-white
+          %i.fa.fa-flask.fa-2x
+          %h3.header-divider.header-white Proven Science
+          %p
+            WEVO is powered by state of the art market research science, proven over years of client
+            projects. You get sound answers, every time.
+
+        %article.color-white
+          %i.fa.fa-signal.fa-2x
+          %h3.header-divider.header-white Actionable Insights
+          %p
+            WEVO delivers quantified, actionable insights that you can use immediately and with
+            confidence.
+            %a.color-white{ href: '' } View sample results.
+
+    %section.bg-khaki
+      .wrap
+        .wrap-medium
+          %h2.mbs The WEVO Experience
+          %p.l-centered.mbs
+            WEVO uses insights and experience from projects with a variety of clients &mdash; startups to
+            fortune 100 companies &mdash; to help you create better products.
+
+      .wrap
+        .client-logo
+          %div
+            %figure
+              %img{ src: 'images/logo-santander.png' }
+
+        .client-logo
+          %div
+            %figure
+              %img{ src: 'images/logo-att.png' }
+
+        .client-logo
+          %div
+            %figure
+              %img{ src: 'images/logo-where.png' }
+
+        .client-logo
+          %div
+            %figure
+              %img{ src: 'images/logo-vlingo.png' }
+
+        .client-logo
+          %div
+            %figure
+              %img{ src: 'images/logo-brightcove.png' }
+
+        .client-logo
+          %div
+            %figure
+              %img{ src: 'images/logo-constantcontact.png' }
+
+        .client-logo
+          %div
+            %figure
+              %img{ src: 'images/logo-awareness.png' }
+
+        .client-logo
+          %div
+            %figure
+              %img{ src: 'images/logo-serviceceo.png' }
+
+    %footer
+      .wrap
+        %img.wevo{ src: 'images/logo-wevo-light_@2x.png' }
+        .about.color-white.mbm
+          %h3 About
+          %a{ href: 'http://www.highstartgroup.com/about-us/' } About High Start Group
+          %br
+          %a{ href: 'http://www.highstartgroup.com/contact-us/' } Contact Us
+
+      .wrap
+        %p.l-left
+          High Start Group &copy; 2014
+
+        %p.l-right
+          50 Congress Street, Suite 1025, Boston, MA 02131
+          %span 617.249.0531
+
+
+
+
