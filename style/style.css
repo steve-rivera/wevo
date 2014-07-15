@@ -21,8 +21,7 @@ article {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%;
-  padding: 1%; }
+  width: 31.76157%; }
   article:last-child {
     margin-right: 0; }
   article:nth-child(3n) {
@@ -49,7 +48,7 @@ article {
 body, html {
   color: #555555;
   font-family: 'Raleway', sans-serif;
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 300;
   line-height: 1.4; }
 
@@ -157,7 +156,7 @@ h2 {
 h3 {
   color: #333;
   font-family: 'Bitter', sans-serif;
-  font-size: 15px;
+  font-size: 19px;
   text-transform: uppercase; }
 
 header {
@@ -233,7 +232,7 @@ section {
 
 .button {
   -webkit-appearance: none;
-  background: #9deaff;
+  background: #00a3d0;
   border: 1px solid #002b37;
   border-radius: 0;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.8), inset 0 1px 0 rgba(255, 255, 255, 0.9);
@@ -242,7 +241,7 @@ section {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 300;
-  padding: 15px; }
+  padding: 13px 15px; }
   .button:hover {
     background: #6adeff; }
   .button:active {
@@ -388,7 +387,7 @@ header a {
   display: block;
   height: 2px;
   margin: 15px 0;
-  width: 150px; }
+  width: 66%; }
 
 .header-purple {
   color: #260808; }
@@ -399,6 +398,11 @@ header a {
   color: #296f3e; }
   .header-green.header-divider:after {
     background: #296f3e; }
+
+.header-white {
+  color: white; }
+  .header-white.header-divider:after {
+    background: white; }
 
 .hero {
   background-color: #edf0ec;
@@ -411,6 +415,24 @@ header a {
   @media screen and (max-width: 500px) {
     .hero {
       padding: 45px 0; } }
+
+.input-email {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-left: 8.5298%; }
+  .input-email:last-child {
+    margin-right: 0; }
+
+.input-submit {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  margin-right: 0; }
+  .input-submit:last-child {
+    margin-right: 0; }
 
 .mts {
   margin-top: 30px; }
