@@ -223,6 +223,7 @@ section {
   font-weight: 300;
   padding: 13px 15px;
 
+
   &:hover { background: lighten($navy, 60%); }
 
   &:active {
@@ -236,6 +237,8 @@ section {
   background: $purple;
   border: 1px solid $purple;
   box-shadow: 0 2px 0 rgba(0,0,0,.8), inset 0 1px 0 rgba(255, 255, 255, .3);
+  width: 150px;
+
 
   &:hover { background: lighten($purple, 10%); }
 

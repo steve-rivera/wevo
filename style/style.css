@@ -252,7 +252,8 @@ section {
 .button--purple {
   background: #260808;
   border: 1px solid #260808;
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.8), inset 0 1px 0 rgba(255, 255, 255, 0.3); }
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.8), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  width: 150px; }
   .button--purple:hover {
     background: #501111; }
   .button--purple:active {
