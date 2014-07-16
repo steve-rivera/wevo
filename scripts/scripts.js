@@ -6,7 +6,7 @@ $( function() {
   learnMoreButton = $('.js-learn-more-button');
   learnMoreSection = $('.js-learn-more-section');
   signUpButton = $('.js-sign-up-button');
-  spanOR = $('.span.or');
+  spanOR = $('.or');
   signUpSection = $('.js-sign-up-section');
   thankYouSection = $('.js-thank-you-section');
 
