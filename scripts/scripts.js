@@ -6,6 +6,7 @@ $( function() {
   learnMoreButton = $('.js-learn-more-button');
   learnMoreSection = $('.js-learn-more-section');
   signUpButton = $('.js-sign-up-button');
+  spanOR = $('.span.or');
   signUpSection = $('.js-sign-up-section');
   thankYouSection = $('.js-thank-you-section');
 
@@ -23,7 +24,8 @@ $( function() {
 
   if( earlyAccess == 'true' ) {
     signUpSection.hide();
-    //signUpButton.hide();
+    signUpButton.hide();
+    spanOR.hide();
     thankYouSection.show();
     showFlash();
     hideFlash();
