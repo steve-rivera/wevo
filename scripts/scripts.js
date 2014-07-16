@@ -23,7 +23,7 @@ $( function() {
 
   if( earlyAccess == 'true' ) {
     signUpSection.hide();
-    signUpButton.hide();
+    //signUpButton.hide();
     thankYouSection.show();
     showFlash();
     hideFlash();
