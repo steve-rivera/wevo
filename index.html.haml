@@ -5,6 +5,7 @@
   %head
     %script{ src: 'scripts/scripts-kissmetrics.js' }
     %script{ src: 'scripts/scripts-googleanalytics.js' }
+    %script{ src: 'scripts/scripts-crazyegg.js' }
     %title WEVO | Enabling Market Success.
     %meta{ content: 'width=device-width, initial-scale=1', name: 'viewport' }
     %link{ rel: 'stylesheet', type: 'text/css', href: 'style/style.css' }
@@ -18,19 +19,15 @@
     
 
   %body
-
     .flash.js-flash.bg-purple.color-white.l-centered.l-hidden
       %strong.js-flash-text.opacity-0
         Your inquiry submitted successfully! Thanks for your interest in trying out WEVO. We'll
         be reaching out to you shortly, so stay tuned!
 
-    %header
-      .wrap
-        .logo-wrapper
-          .logo
-        %a.hide{ href: 'http://www.highstartgroup.com/about-us/', target: '_blank' } About HSG
+  %header.wrap.logo-wrapper.logo
+  %a.hide{ href: 'http://www.highstartgroup.com/about-us/', target: '_blank' } About HSG
 
-    %section.hero.bg-khaki
+  %section.hero.bg-khaki
       .wrap
         .wrap-medium.bg-transparent.l-centered
           %h1.mbs Better Products. Faster.
