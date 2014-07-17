@@ -1,4 +1,5 @@
-<script type="text/javascript">var _kmq = _kmq || [];
+<script type="text/javascript">
+var _kmq = _kmq || [];
 var _kmk = _kmk || 'e6066118fb7bb389abb2169cb0c962cd6de79fb4';
 function _kms(u){
   setTimeout(function(){
