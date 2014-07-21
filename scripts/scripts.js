@@ -17,6 +17,7 @@ $( function() {
   });
 
   learnMoreButton.click( function() {
+    mixpanel.track("Learn More");
     $('html, body').animate({
       scrollTop: learnMoreSection.offset().top
     }), 600;
