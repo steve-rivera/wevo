@@ -47,4 +47,8 @@ $( function() {
     });
   }
 
+  function validateForm() {
+    mixpanel.track("Sign Up");
+  }
+
 });

@@ -180,7 +180,7 @@
           %p WEVO is currently in Private Beta. Sign Up and we will be in touch when a slot is available.
           %br
 
-          %form{ action: 'send.php', method: 'post' }
+          %form{ action: 'send.php', method: 'post', onsubmit:'validateForm()' }
             .grid-4of8
               %input{ type: 'text', name: 'first_name', placeholder: 'First Name*' }
             .grid-4of8.omega
