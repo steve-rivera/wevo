@@ -49,7 +49,7 @@ $( function() {
 
   function validateForm() {
     mixpanel.track("Sign Up");
-    alert("aha");
+    alert("Thanks"); 
     return true;
   }
 
