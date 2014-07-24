@@ -56,6 +56,5 @@ $( function() {
 
 function validateForm() {
   mixpanel.track("Sign Up");
-  alert("Thanks"); 
   return true;
 }
