@@ -11,6 +11,7 @@ $( function() {
   thankYouSection = $('.js-thank-you-section');
 
   signUpButton.click( function() {
+    mixpanel.track("Learn More - top button");
     $('html, body').animate({
       scrollTop: signUpSection.offset().top
     }, 1200);
