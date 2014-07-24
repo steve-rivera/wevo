@@ -33,6 +33,8 @@ $( function() {
     hideFlash();
   }
 
+
+
   function showFlash() {
     flash.delay(500).slideDown({
       duration: 1500,
@@ -47,10 +49,13 @@ $( function() {
     });
   }
 
-  function validateForm() {
-    mixpanel.track("Sign Up");
-    alert("Thanks"); 
-    return true;
-  }
+
 
 });
+
+
+function validateForm() {
+  mixpanel.track("Sign Up");
+  alert("Thanks"); 
+  return true;
+}
