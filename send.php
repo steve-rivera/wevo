@@ -7,7 +7,7 @@ $company = "Company: " . $_POST["company"] . "\r\n";
 $contact = "Contact: " . $_POST["contact"];
 $message = $first . $last . $email . $company . $contact;
 
-$to = "steverivera60@gmail.com";
+$to = "shobhit@highstartgroup.com";
 $from = "no-reply@wevo.highstartgroup.com";
 $subject = "New Wevo Early Access Request";
 
