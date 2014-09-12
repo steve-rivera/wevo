@@ -33,8 +33,12 @@ a {
 }
 
 article {
-  @include span-columns(4);
-  @include omega(3n);
+  @include span-columns(6);
+  @include shift(3);
+  margin-bottom: 60px;
+
+  i { float: left; }
+  .content { margin-left: 60px; }
 
   @include media($mobile) {
     @include span-columns(4);
@@ -149,6 +153,12 @@ header {
   border-top: 4px solid $purple;
   padding: 30px 0;
 
+  a {
+    display: block;
+    float: right;
+    margin-right: 30px;
+  }
+
   @include media($mobile) {
     padding: 15px 0;
 
@@ -187,11 +197,51 @@ input[type='text'] {
   }
 }
 
+input[type='checkbox'] {
+  position: relative;
+  top: 30px;
+  left: -30px;
+}
+
+label.checkbox {
+  left: 30px;
+  position: relative;
+  top: -30px;
+}
+
 section {
   padding: 90px 0;
 
   @include media($mobile) {
     padding: 60px 0;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+  tr:nth-child(even) {
+    background-color: #eeeeee;
+  }
+
+  td {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  strong {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  ul {
+    margin-left: 20px;
+  }
+
+  .number {
+    font-size: 24px;
+    font-weight: 600;
   }
 }
 
@@ -236,8 +286,8 @@ section {
 .button--purple {
   background: $purple;
   border: 1px solid $purple;
-  box-shadow: 0 2px 0 rgba(0,0,0,.8), inset 0 1px 0 rgba(255, 255, 255, .3);
-  width: 150px;
+  box-shadow: 0 2px 0 rgba(0,0,0,.2), inset 0 1px 0 rgba(255, 255, 255, .3);
+  width: 220px;
 
 
   &:hover { background: lighten($purple, 10%); }
@@ -245,6 +295,11 @@ section {
   &:active {
     background: darken($purple, 10%);
     border-bottom: 1px solid lighten($purple, 70%);
+  }
+
+  &.is-active {
+    background: lighten($purple, 30%);
+    box-shadow: inset 0 3px 2px rgba(0, 0, 0, .3);
   }
 }
 
@@ -321,13 +376,11 @@ section {
   background: -webkit-image-set( url(../images/logo-wevo.png) 1x, url(../images/logo-wevo_@2x.png) 2x) no-repeat;
   height: 27px;
   width: 252px;
+  margin: 0;
+  float: none;
 }
 
-header a {
-  @include span-columns(10);
-  @include omega();
-  text-align: right;
-}
+
 
 .logos {
   @include span-columns(4);

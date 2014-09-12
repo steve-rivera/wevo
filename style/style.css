@@ -21,13 +21,15 @@ article {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%; }
+  width: 48.82117%;
+  margin-left: 25.58941%;
+  margin-bottom: 60px; }
   article:last-child {
     margin-right: 0; }
-  article:nth-child(3n) {
-    margin-right: 0; }
-  article:nth-child(3n+1) {
-    clear: left; }
+  article i {
+    float: left; }
+  article .content {
+    margin-left: 60px; }
   @media screen and (max-width: 500px) {
     article {
       float: left;
@@ -162,6 +164,10 @@ h3 {
 header {
   border-top: 4px solid #260808;
   padding: 30px 0; }
+  header a {
+    display: block;
+    float: right;
+    margin-right: 30px; }
   @media screen and (max-width: 500px) {
     header {
       padding: 15px 0; }
@@ -201,11 +207,38 @@ input[type='text'] {
   input[type='text']:focus {
     border-color: #00a3d0; }
 
+input[type='checkbox'] {
+  position: relative;
+  top: 30px;
+  left: -30px; }
+
+label.checkbox {
+  left: 30px;
+  position: relative;
+  top: -30px; }
+
 section {
   padding: 90px 0; }
   @media screen and (max-width: 500px) {
     section {
       padding: 60px 0; } }
+
+table {
+  border-collapse: collapse;
+  width: 100%; }
+  table tr:nth-child(even) {
+    background-color: #eeeeee; }
+  table td {
+    padding: 10px;
+    font-size: 16px; }
+  table strong {
+    font-size: 12px;
+    text-transform: uppercase; }
+  table ul {
+    margin-left: 20px; }
+  table .number {
+    font-size: 24px;
+    font-weight: 600; }
 
 .bg-green {
   background: #296f3e; }
@@ -252,13 +285,16 @@ section {
 .button--purple {
   background: #260808;
   border: 1px solid #260808;
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.8), inset 0 1px 0 rgba(255, 255, 255, 0.3);
-  width: 150px; }
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  width: 220px; }
   .button--purple:hover {
     background: #501111; }
   .button--purple:active {
     background: black;
     border-bottom: 1px solid #eca7a7; }
+  .button--purple.is-active {
+    background: #a42323;
+    box-shadow: inset 0 3px 2px rgba(0, 0, 0, 0.3); }
 
 .client-logo {
   float: left;
@@ -362,17 +398,9 @@ section {
   background: url(../images/logo-wevo.png) no-repeat;
   background: -webkit-image-set(url(../images/logo-wevo.png) 1x, url(../images/logo-wevo_@2x.png) 2x) no-repeat;
   height: 27px;
-  width: 252px; }
-
-header a {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 82.94039%;
-  margin-right: 0;
-  text-align: right; }
-  header a:last-child {
-    margin-right: 0; }
+  width: 252px;
+  margin: 0;
+  float: none; }
 
 .logos {
   float: left;

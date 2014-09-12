@@ -3,10 +3,11 @@
 $first = "First Name: " . $_POST["first_name"] . "\r\n";
 $last = "Last Name: " . $_POST["last_name"] . "\r\n";
 $email = "Email: " . $_POST["email"] . "\r\n";
-$company = "Company: " . $_POST["company"];
-$message = $first . $last . $email . $company;
+$company = "Company: " . $_POST["company"] . "\r\n";
+$contact = "Contact: " . $_POST["contact"];
+$message = $first . $last . $email . $company . $contact;
 
-$to = "shobhit@highstartgroup.com";
+$to = "steverivera60@gmail.com";
 $from = "no-reply@wevo.highstartgroup.com";
 $subject = "New Wevo Early Access Request";
 

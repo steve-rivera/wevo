@@ -49,6 +49,23 @@ $( function() {
     });
   }
 
+  monthlyUse = $('.js-pricing-monthly');
+  singleUse = $('.js-pricing-single');
+
+  monthlyUse.click( function() {
+    $('.single-use').fadeOut();
+    $('.monthly').fadeIn();
+    singleUse.removeClass('is-active');
+    monthlyUse.addClass('is-active');
+  });  
+
+  singleUse.click( function() {
+    $('.monthly').fadeOut();
+    $('.single-use').fadeIn();
+    monthlyUse.removeClass('is-active');
+    singleUse.addClass('is-active');
+  });
+
 
 
 });
