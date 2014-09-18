@@ -456,6 +456,16 @@ table {
   text-align: center;
 }
 
+.team-member {
+  float: left;
+  margin-right: 25px;
+  width: 250px;
+
+  &.last { margin-right: 0; }
+
+  p { font-size: 16px; }
+}
+
 .wrap {
   @include outer-container;
   padding: 0 30px;

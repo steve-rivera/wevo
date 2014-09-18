@@ -498,6 +498,15 @@ table {
   font-size: 28px;
   text-align: center; }
 
+.team-member {
+  float: left;
+  margin-right: 25px;
+  width: 250px; }
+  .team-member.last {
+    margin-right: 0; }
+  .team-member p {
+    font-size: 16px; }
+
 .wrap {
   max-width: 68em;
   margin-left: auto;
